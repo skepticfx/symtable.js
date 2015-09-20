@@ -39,11 +39,14 @@ describe('simple imperative symbol table operations', function(){
     assert.equal(S.find('a'), 5);
   });
 
-
   it('exit current scope', function(){
     S.exitScope();
     assert.equal(S.find('a'), 1);
   });
 
+  it('checkScope', function(){
+    assert.equal(S.checkScope('b'), true);
+    assert.equal(S.checkScope('g'), false);
+  });
 
 });

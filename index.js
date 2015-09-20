@@ -31,4 +31,11 @@ Symtable.prototype.find = function(key){
   return null;
 };
 
+Symtable.prototype.checkScope = function(key){
+  if(this.find(key) !== null){
+    return true;
+  }
+  return false;
+};
+
 module.exports = Symtable;
