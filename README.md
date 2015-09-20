@@ -4,7 +4,7 @@ An imperative symbol table library in Javascript
 ## Installation
 ###### Requires ES6.
 
-`npm install symtable`
+`npm install symtable.js`
 
 ## Usage
 
