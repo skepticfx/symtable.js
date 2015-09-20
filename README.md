@@ -9,11 +9,11 @@ An imperative symbol table library in Javascript
 ## Usage
 
 ```javascript
-var Symtable = require('symtable');
+var Symtable = require('symtable.js');
 
-var map = new Map();
-map.set('window', 1);
-map.set('document', 2);
+var globalIds = new Map();
+globalIds.set('window', 1);
+globalIds.set('document', 2);
 
 // Initialize a new symbol table with a map of symbols in the global scope.
 var S = new Symtable(globalIds);
