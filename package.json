@@ -1,6 +1,6 @@
 {
   "name": "symtable.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An imperative symbol table library in Javascript",
   "main": "index.js",
   "directories": {
