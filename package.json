@@ -1,0 +1,35 @@
+{
+  "name": "symtable.js",
+  "version": "1.0.0",
+  "description": "An imperative symbol table library in Javascript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha": "^2.3.2",
+    "stackjs": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skepticfx/symtable.js.git"
+  },
+  "keywords": [
+    "symbol",
+    "table",
+    "symtable",
+    "compiler"
+  ],
+  "author": "Ahamed Nafeez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skepticfx/symtable.js/issues"
+  },
+  "homepage": "https://github.com/skepticfx/symtable.js#readme"
+}

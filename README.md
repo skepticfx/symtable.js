@@ -2,21 +2,21 @@
 An imperative symbol table library in Javascript
 
 ## Installation
-###### Requires ES6. Works on `iojs`
+###### Requires ES6.
 
 `npm install symtable`
 
 ## Usage
 
 ```javascript
-var symtable = require('symtable');
+var Symtable = require('symtable');
 
 var map = new Map();
 map.set('window', 1);
 map.set('document', 2);
 
 // Initialize a new symbol table with a map of symbols in the global scope.
-var S = new symtable(globalIds);
+var S = new Symtable(globalIds);
 
 // Start a new nested scope
 S.enterScope();
