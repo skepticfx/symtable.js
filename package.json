@@ -7,11 +7,11 @@
     "test": "test"
   },
   "dependencies": {
-    "mocha": "^2.3.2",
+    "mocha": "^6.0.0",
     "stackjs": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "^2.3.2"
+    "mocha": "6.1.4"
   },
   "scripts": {
     "test": "mocha ./test/*.js"
