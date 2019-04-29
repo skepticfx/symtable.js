@@ -11,7 +11,7 @@
     "stackjs": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "^2.3.2"
+    "mocha": "2.5.3"
   },
   "scripts": {
     "test": "mocha ./test/*.js"
